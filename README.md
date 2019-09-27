@@ -1,3 +1,10 @@
+Build Running in [travis-ci](https://travis-ci.org/vpnovelty/codifyz)
+
+[![Build Status](https://travis-ci.org/vpnovelty/codifyz.svg?branch=master)](https://travis-ci.org/vpnovelty/codifyz)
+
+
+
+
 # Coding Task
 
 The goal of the challenge is to implement a system that analyses financial transaction records. Please refer the attached word document in this repository for detailed information
