@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.Scanner;
 
 /**
- * Start of the process
+ * Start of the calculations
  */
 public class CodeChallenge {
 
@@ -27,6 +27,10 @@ public class CodeChallenge {
     }
 
     /**
+     * As per the requirement
+     * •	Input file and records are all in a valid format
+     * •	Transaction are recorded in order
+     *
      * Start of execution
      *
      * @param filePath

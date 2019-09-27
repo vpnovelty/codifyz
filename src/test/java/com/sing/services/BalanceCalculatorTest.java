@@ -10,7 +10,7 @@ import java.util.List;
 
 import static com.sing.utils.DateUtils.getLocalDateTimeFromString;
 
-@DisplayName("Tests that verify the calculator logic")
+@DisplayName("BalanceCalculator: Tests that verify the calculator logic")
 public class BalanceCalculatorTest {
     private static List<Transaction> transactionList = new ArrayList<>();
     private static List<Transaction> transactionListWithReversal = new ArrayList<>();

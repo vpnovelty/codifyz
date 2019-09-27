@@ -6,12 +6,12 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 
 /**
- * Validators patterns
+ * Validators, validation is done here.
  */
 public class ValidatorUtils {
 
     /**
-     * Validates if the gived file type is valid
+     * Validates if the given file type is valid
      *
      * @param filePath
      * @param mimeType
@@ -24,7 +24,7 @@ public class ValidatorUtils {
     }
 
     /**
-     * Check if from date is before todate
+     * Check if from date is before to date
      *
      * @param toDate
      * @param fromDate
