@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- * Calculator
+ * Balance Calculator
  */
 public class BalanceCalculator {
     private final List<Transaction> transactionList;

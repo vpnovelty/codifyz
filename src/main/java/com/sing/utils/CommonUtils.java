@@ -12,7 +12,7 @@ import java.util.Locale;
 import java.util.stream.Stream;
 
 /**
- * Common utility methods
+ * Common utility methods aimed to be reused
  */
 public class CommonUtils {
 
