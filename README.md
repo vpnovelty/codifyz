@@ -2,8 +2,9 @@ Build Running in [travis-ci](https://travis-ci.org/vpnovelty/codifyz)
 
 [![Build Status](https://travis-ci.org/vpnovelty/codifyz.svg?branch=master)](https://travis-ci.org/vpnovelty/codifyz)
 
+Code Coverage is running in [codecov](https://codecov.io/gh/vpnovelty/codifyz)
 
-
+[![codecov](https://codecov.io/gh/vpnovelty/codifyz/branch/master/graph/badge.svg)](https://codecov.io/gh/vpnovelty/codifyz)
 
 # Coding Task
 
