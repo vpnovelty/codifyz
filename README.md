@@ -17,7 +17,7 @@ Checkout the Git Repository on `master`. As such the latest production copy will
 ### Sample Input
 
 ```$xslt
-Sing-2:target sing$ java -jar codifyz-1.0-SNAPSHOT-jar-with-dependencies.jar input.csv
+java -jar codifyz-1.0-SNAPSHOT-jar-with-dependencies.jar input.csv
 Please enter the Account ID to calculate balance: 
 Example: ACC334455
 ACC334455

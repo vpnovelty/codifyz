@@ -22,7 +22,7 @@ class CommonUtilsTest {
     @Test
     void testCreateTransaction() {
         String input = "TX10001,ACC112233,ACC332211,23/05/2019 18:18:18,1.23,PAYMENT";
-        assertEquals(123l, CommonUtils.createTransactionRecordFromInput(input).getAmountInCents());
+        assertEquals(123l, new CommonUtils().createTransactionRecordFromInput(input).getAmountInCents());
     }
 
 }

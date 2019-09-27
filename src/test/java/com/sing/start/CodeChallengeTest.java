@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @DisplayName("CodeChallenge testing:")
 class CodeChallengeTest {
 
-
     @DisplayName("Should accept User input and give a valid result")
     @Test
     void userCalculator() {
@@ -44,7 +43,23 @@ class CodeChallengeTest {
         Scanner consoleInput = new Scanner(byteArrayInputStream);
         BalanceCalculator balanceCalculator = new BalanceCalculator(transactionListWithReturns);
         assertEquals("Please enter a valid date, To Date 2018-10-20T19:35 should not be after From Date 2018-10-21T17:55",
-                CodeChallenge.userCalculator(consoleInput, balanceCalculator));
+                new CodeChallenge().userCalculator(consoleInput, balanceCalculator));
+    }
+
+    @DisplayName("Checked if the input values are correctly set in its respective parameter")
+    @Test
+    void validateValues() {
+
+        List<Transaction> transactionListWithReturns = new ArrayList<>();
+        transactionListWithReturns.add(new Transaction("TX10004", "ACC334455", "ACC998877", "20/10/2018 19:45:00", "10.50", "REVERSAL", "TX10002"));
+
+        assertEquals(transactionListWithReturns.get(0).getTransactionID(), "TX10004");
+        assertEquals(transactionListWithReturns.get(0).getFromAccountID(), "ACC334455");
+        assertEquals(transactionListWithReturns.get(0).getToAccountID(), "ACC998877");
+        assertEquals(transactionListWithReturns.get(0).getCreatedAt().toString(), "2018-10-20T19:45");
+        assertEquals(transactionListWithReturns.get(0).getAmountInCents(), 1050);
+        assertEquals(transactionListWithReturns.get(0).getRelatedPayment(), "TX10002");
+
     }
 
 }
